@@ -8,7 +8,7 @@ import { Observable } from 'rxjs';
 })
 export class ApiService {
   baseUrl = 'http://35.199.101.233:8000/';
-  token = 'Token 320c1685ff2b82d01b4054171e87340b91696c2f';
+  token = 'Token 4dfbcb856d7fd20c9dbd6224176c13e8fa316b59';
 
   httpHeaders = new HttpHeaders().set('Content-Type', 'application/json')
   .set('Authorization', this.token);
