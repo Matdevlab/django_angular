@@ -93,8 +93,8 @@ DATABASES = {
         'PASSWORD': 'djangosenha',
         'HOST': 'localhost',
         'PORT': '',
-    }
-    'local': {
+    },
+    'local':{
         'ENGINE': 'django.db.backends.sqlite3',
         'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
     }
@@ -141,8 +141,8 @@ STATIC_URL = '/static/'
 
 CORS_ORIGIN_WHITELIST = [
     "http://localhost:4200",
-    "http://35.199.101.233:8000/"
-    add_header 'Access-Control-Allow-Origin' 'http://localhost:4200' always;
+    "http://35.199.101.233:8000"
+    #add_header 'Access-Control-Allow-Origin' 'http://localhost:4200' always;
 ]
 
 STATIC_URL = '/static/'
