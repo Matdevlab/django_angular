@@ -17,7 +17,7 @@ export class MembersDetailComponent implements OnInit {
     private appComponente: AppComponent) { }
 
   // tslint:disable-next-line:variable-name
-  selected_member = { name: '', secondname: ''};
+  selected_member = { name: '', secondname: '', id: '', phone: '', photo: ''};
   // tslint:disable-next-line:variable-name
   selected_id;
 
